@@ -3,8 +3,6 @@ server:
 
 
 spring:
-  application:
-    name: SYSTEM-SERVICE
   datasource:
      url: jdbc:mysql:///hrm-system?serverTimezone=UTC&useSSL=false&useUnicode=true&characterEncoding=utf8
 
