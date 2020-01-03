@@ -1,9 +1,7 @@
 server:
   port: 9527
 
-spring:
-  application:
-    name:  ZUUL-GATEWAY   #将此应用程序，模块命名
+
 zuul:
   prefix: /services  #指定一个全局前缀servers
   ignored-services: "*"  # 忽略指定微服务，多个微服务之间使用逗号分隔
