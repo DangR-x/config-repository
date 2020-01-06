@@ -1,6 +1,8 @@
 server:
   port: 9003
-
+feign::
+  hystrix: 
+    enabled: true  #开始feign的熔断支持
 
 
 
