@@ -15,3 +15,6 @@ zuul:
     fastdfs:
       path: /file/**
       serviceId: FASTDFS-SERVICE
+    es:
+      path: /es/**
+      serviceId: ES-SERVICE
