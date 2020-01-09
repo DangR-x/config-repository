@@ -1,7 +1,6 @@
 server:
   port: 9007
 
-
 spring:
   datasource:
      url: jdbc:mysql:///hrm-user?serverTimezone=UTC&useSSL=false&useUnicode=true&characterEncoding=utf8
